@@ -10,6 +10,8 @@ let passcode2 = ""
 let password1 = document.getElementById("password1")
 let password2 = document.getElementById("password2")
 
+document.querySelector(".btn1").addEventListener("click", generatePassword)
+
 
 function generatePassword() {
     for (let i = 0; i < 16; i++) {
