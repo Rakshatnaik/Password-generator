@@ -11,8 +11,8 @@ body  {
 .heading {
     
     font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
+    font-weight: bold;
+    font-size: 60px;
     color: white;
     line-height: 20px;
     letter-spacing: -0.025em;
@@ -42,10 +42,11 @@ body  {
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 28px;
     color: #D5D4D8;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 100px;
     }
     
 .btn1 {
@@ -53,7 +54,7 @@ body  {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 9px 17px 9px 15px;
+    padding: 9px 20px 9px 20px;
     background: #10B981;
     /* shadow/sm */
 
@@ -63,14 +64,15 @@ body  {
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 26px;
     border: none;
+    margin-top: 30px;
 }
 
 .btn2 {
-    width: 211px;
-    height: 39px;
+    width: 250px;
+    height: 45px;
     left: 52px;
     top: 396px;
 

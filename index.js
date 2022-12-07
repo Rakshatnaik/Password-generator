@@ -20,4 +20,6 @@ function generatePassword() {
     }
     password1.textContent = passcode1
     password2.textContent = passcode2
+    passcode1 = ""
+    passcode2 = ""
 }
